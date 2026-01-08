@@ -1,5 +1,5 @@
 resource "newrelic_log_parsing_rule" "this" {
-    for_each = locals.rules_map
+    for_each = local.rules_map
         name      = each.value.name
         attribute = each.value.attribute
         enabled   = each.value.enabled
