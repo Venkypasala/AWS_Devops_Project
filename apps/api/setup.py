@@ -5,7 +5,7 @@ requirements = [
     'aiofiles==0.7.0',
     'fastapi==0.65.2',
     'psycopg2',
-    'pydantic==1.8.2',
+    'pydantic==1.10.13',
     'starlette==0.14.2',
     'uvicorn==0.13.4',
 ]
